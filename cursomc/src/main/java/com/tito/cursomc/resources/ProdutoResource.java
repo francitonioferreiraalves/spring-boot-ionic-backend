@@ -1,6 +1,5 @@
 package com.tito.cursomc.resources;
 
-import java.net.URL;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.tito.cursomc.domain.Produto;
 import com.tito.cursomc.dto.ProdutoDTO;
+import com.tito.cursomc.resources.utils.URL;
+import com.tito.cursomc.services.ProdutoService;
 
 @RestController
 @RequestMapping(value = "/produtos")
